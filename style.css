@@ -4655,6 +4655,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .inner-banner-wrap {
   padding-bottom: 50px;
   background-color: var(--main-bg);
+  padding-bottom: 0;
 }
 @media screen and (max-width: 575px) {
   .inner-banner-wrap {
@@ -4729,6 +4730,7 @@ p.step-icon {
 .inner-baner-container .inner-title {
   color: #ffffff;
   line-height: 1.1;
+  margin-top: 120px;
 }
 .inner-baner-container .breadcrumb {
   background-color: transparent;
