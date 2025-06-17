@@ -4654,7 +4654,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 ----------------------------------------------------------------*/
 .inner-banner-wrap {
   padding-bottom: 50px;
-  /* background-color: var(--main-bg); */
+  background-color: var(--main-bg);
 }
 @media screen and (max-width: 575px) {
   .inner-banner-wrap {
