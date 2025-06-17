@@ -8986,6 +8986,11 @@ img.destination {
   height:15px !important;
 }
 @media (max-width: 768px) {
+  h3.text-center.client-heading, p.text-center.client-subheading {
+    color: white;
+    margin-left: 25px;
+    margin-right: 25px;
+}
   .swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
     content: 'prev';
     font-size: 25px;

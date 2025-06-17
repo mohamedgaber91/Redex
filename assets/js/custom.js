@@ -83,7 +83,7 @@ $('.client-slider').slick({
     }, {
     breakpoint: 479,
       settings: {
-        slidesToShow: 2,
+        slidesToShow: 1,
       }
   }]
 });

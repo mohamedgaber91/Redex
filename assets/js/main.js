@@ -1,16 +1,16 @@
 new WOW().init();
   document.addEventListener("DOMContentLoaded", function () {
       var swiper = new Swiper(".gallery-slider", {
-          slidesPerView: 3,    // يعرض صورة واحدة فقط في كل مرة
-          spaceBetween: 10,    // مسافة صغيرة بين الصور
-          loop: true,          // تكرار تلقائي (Loop)
+          slidesPerView: 3,    
+          spaceBetween: 10,    
+          loop: true,          
           autoplay: {
-              delay: 2500,     // تغيير الصورة كل 2.5 ثانية
-              disableOnInteraction: false, // يبقى يعمل حتى بعد التفاعل
+              delay: 2500,     
+              disableOnInteraction: false, 
           },
           pagination: {
               el: ".swiper-pagination",
-              clickable: true, // يجعل النقاط (bullets) قابلة للنقر
+              clickable: true,
           },
           navigation: {
               nextEl: ".swiper-button-next",
@@ -25,13 +25,13 @@ new WOW().init();
                       slidesPerView: 3,
                   },
                   768: {
-                      slidesPerView: 2,
+                      slidesPerView: 1,
                   },
                   576: {
-                      slidesPerView: 2,
+                      slidesPerView: 1,
                   },
                   320: {
-                      slidesPerView: 2,
+                      slidesPerView: 1,
                   }
               }
       });
