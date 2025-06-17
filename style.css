@@ -2394,8 +2394,9 @@ input[type=submit]:focus {
   overflow: hidden;
 }
 .home-slider .home-banner-items .banner-content-wrap {
-  padding-bottom: 125px;
-  padding-top: 288px;
+    padding-bottom: 125px;
+    padding-top: 288px;
+    background-color: var(--main-bg);
 }
 .home-slider .banner-content {
   margin-left: auto;
@@ -2406,11 +2407,11 @@ section.destination-section {
   margin-top: 55px;
 }
 .banner-inner-wrap {
-  -webkit-background-size: cover;
+  /* -webkit-background-size: cover;
   -moz-background-size: cover;
   -ms-background-size: cover;
-  -o-background-size: cover;
-  background-color: var(--main-bg);
+  -o-background-size: cover; */
+  /* background-color: var(--main-bg); */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
